@@ -1,0 +1,39 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./wrapper.css";
+@import "./hero.css";
+@import './menu.css';
+@import './comment.css';
+@import './project.css';
+@import './social.css';
+@import './footer.css';
+@import './form.css';
+@import './title.css';
+
+:root{
+    --fontBase:'Poppins', sans-serif;
+    --fontComment: 'Oxygen', sans-serif;
+    --headline1: bold 95px/153.71px var(--fontBase);
+    --headline2: bold 59px/95px var(--fontBase);
+    --headline3: bold 48px/77px var(--fontBase);
+    --headline4: bold 34px/55px var(--fontBase);
+    --headline5: bold 24px/38px var(--fontBase);
+    --body1: 16px/25px var(--fontBase);
+    --body2: 14px/22px var(--fontBase);
+    --button: bold 14px/22px var(--fontBase);
+    --caption: bold 12px/19px var(--fontBase);
+    --comment: 34px/55px var(--fontComment);
+    --gradient: linear-gradient(0deg, #DDDDDD, #DDDDDD);
+    --purple: #310A90;
+    --white: white;
+}
+
+body{
+    background: var(--gradient);
+    min-block-size: 100vh;
+    font: var(--body1);
+    color: var(--purple);
+    margin: 0;
+}
+
