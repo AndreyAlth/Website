@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
     const logo = "https://gabrielbarcelo-website.s3.amazonaws.com/Portafolio/images/logo.png";
-    const cv = "https://gabrielbarcelo-website.s3.amazonaws.com/Portafolio/static/cv.pdf";
+    const cv = "https://gabrielbarcelo-website.s3.amazonaws.com/Portafolio/static/cv-v3.pdf";
     return (
         <header className="header">
             <div className="wrapper">
