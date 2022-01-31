@@ -2,7 +2,7 @@
 
 Simple website developed with JavaScript Stack
 
-[gabrielbarcelo.website](www.google.com)
+[gabrielbarcelo.website](https://gabrielbarcelo.website/)
 
 ## Get Started
 
