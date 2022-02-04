@@ -1,0 +1,25 @@
+.image-tree{
+    width: 165px;
+    height: 165px;
+    border-radius: 100%;
+}
+
+.perfil-tree-title{
+    font: var(--headline4);
+}
+
+.perfil-tree-desc{
+    font: var(--body1);
+    margin-block-end: 40px;
+}
+
+.perfil-tree-container{
+    text-align: center;
+}
+
+.linktree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

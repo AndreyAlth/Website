@@ -10,6 +10,8 @@
 @import './css/footer.css';
 @import './css/form.css';
 @import './css/title.css';
+@import './css/perfiltree.css';
+@import './css/linkitem.css';
 
 :root{
     --fontBase:'Poppins', sans-serif;
@@ -35,4 +37,8 @@ body{
     font: var(--body1);
     color: var(--purple);
     margin: 0;
+}
+
+body a:hover {
+    color: white;
 }

@@ -1,0 +1,21 @@
+.link-tree-button{
+    margin-block-end: 25px;
+    min-width: 40%;
+    border-radius: 25px;
+    background: none;
+    border: 2px solid var(--purple);
+    color: var(--purple);
+}
+
+.link-tree-button:hover{
+    color: var(--white);
+    background: linear-gradient(145deg, #2c0982, #340b9a);
+    box-shadow:  -20px 20px 60px #d9d9d9,
+             20px -20px 60px #ffffff;
+}
+
+@media only screen and (max-width: 320px){
+    .link-tree-button{
+        max-width: 60%;
+    }
+}

@@ -7,11 +7,13 @@ function Header() {
         <header className="header">
             <div className="wrapper">
                 <div className="header-content">
-                    <img src={logo} alt="logo" width="70" height="20"/>
+                    <a href="/">
+                        <img src={logo} alt="logo" width="70" height="20"/>
+                    </a>
                     <nav className="menu">
                         <ul>
                             <li>
-                                <a className="is-active" href="#main">Hola</a>
+                                <a className="is-active" href="/certificados">Certificados</a>
                             </li>
                             <li>
                                 <a href="#project">Proyectos</a>

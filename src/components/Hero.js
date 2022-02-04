@@ -28,7 +28,7 @@ function Hero() {
                         <img src={mail}/>
                     </a>
                 </div>
-                <a href="#" className="button">Descargar Curriculum</a>
+                <a href="/certificados" className="button">Ver certificados</a>
             </div>
         </section>
     )
