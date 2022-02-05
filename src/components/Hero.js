@@ -5,7 +5,7 @@ function Hero() {
     const phone = "https://gabrielbarcelo-website.s3.amazonaws.com/Portafolio/icons/icon-phone.svg";
     const mail = "https://gabrielbarcelo-website.s3.amazonaws.com/Portafolio/icons/icon-important_mail.svg";
     return (
-        <section className="hero" id="main">
+        <section className="hero py-4" id="main">
             <div className="hero-image">
                 <img src={perfil} width="328" height="330" alt=""/>
             </div>

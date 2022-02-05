@@ -27,12 +27,13 @@
     --caption: bold 12px/19px var(--fontBase);
     --comment: 34px/55px var(--fontComment);
     --gradient: linear-gradient(0deg, #DDDDDD, #DDDDDD);
+    --gradient_v2: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
     --purple: #310A90;
     --white: white;
 }
 
 body{
-    background: var(--gradient);
+    background: var(--gradient_v2);
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
