@@ -6,15 +6,19 @@
 
 .perfil-tree-title{
     font: var(--headline4);
+    color: white;
 }
 
 .perfil-tree-desc{
     font: var(--body1);
     margin-block-end: 40px;
+    color: white;
 }
 
 .perfil-tree-container{
     text-align: center;
+    position: relative;
+    z-index: 3;
 }
 
 .linktree{

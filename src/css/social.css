@@ -1,5 +1,7 @@
 .social{
     padding-block-end: 24px;
     display: flex;
+    position: relative;
+    z-index: 3;
     gap: 16px;
 }

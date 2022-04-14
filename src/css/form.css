@@ -1,16 +1,28 @@
 .form{
     display: flex;
+    position: relative;
+    z-index: 3;
     flex-direction: column;
     gap: 16px;
-    max-inline-size: 540px;
+    max-inline-size: 900px;
     margin: auto;
     margin-block-end: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: var(--white);
+    font: var(--headline6);
+
+    background: rgba(47, 47, 138, 0.6);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
 }
 
 .form label{
     display: flex;
     flex-direction: column;
-    font: var(--button);
+    font: var(--headline7);
 }
 
 .form .title{
@@ -25,14 +37,24 @@
 }
 
 .form input, .form textarea{
-    border:2px solid #858C94;
-    border-radius: 8px;
+    border: 0;
     padding-inline-start: 16px;
     padding-inline-end: 16px;
     padding-block-start: 12px;
     padding-block-end: 12px;
-    font: var(--body1);
     margin-block-start: 8px;
+    color: var(--white);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 20px 0px;
+
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 10px 20px rgba(7, 7, 26, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
 }
 
 #cheat{
@@ -43,5 +65,12 @@
     .form .title {
         align-self: stretch;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .form{
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }

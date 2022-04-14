@@ -3,23 +3,22 @@ import React from 'react';
 function Form() {
     return (
         <form action="https://formspree.io/f/xrgrjyjp" method="POST" className="form" id="form">
-            <h2 class="title">Hablemos</h2>
             <p>
-                Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+                Send me a message
             </p>
             <label for="form-name">
-                Nombre Completo
-                <input required name="name" id="form-name" type="text" placeholder="Nombre"/>
+                Name
+                <input required name="name" id="form-name" type="text" />
             </label>
-            <label for="form-mail">
-                Correo Electrónico
-                <input required name="email" id="form-mail" type="email" placeholder="nombre@gmail.com"/>
+            <label for="form-mail"> 
+                Email Adress
+                <input required name="email" id="form-mail" type="email" />
             </label>
             <label for="form-message">
-                Mensaje
-                <textarea required name="message" placeholder="Mensaje" id="form-message" cols="30" rows="7"></textarea>
+                Message
+                <textarea required name="message" id="form-message" cols="30" rows="7"></textarea>
             </label>
-            <button class="button" type="submit">Enviar mensaje</button>
+            <button class="button-gradient-message" type="submit">Enviar mensaje</button>
         </form>
     )
 }

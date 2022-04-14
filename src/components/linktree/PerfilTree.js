@@ -13,7 +13,7 @@ function PerfilTree() {
     const perfil = "https://gabrielbarcelo-website.s3.amazonaws.com/Portafolio/images/perfilcv.png";
     return (
         <>
-        <div className="container perfil-tree-container">
+        <div className="container perfil-tree-container my-5">
             <img src={perfil} 
             alt="imagen de perfil" 
             className='image-tree'/>

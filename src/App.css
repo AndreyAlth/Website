@@ -30,10 +30,28 @@
     --gradient_v2: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
     --purple: #310A90;
     --white: white;
+
+    /* Text  */
+    --headlineCard: bold 60px/78px var(--fontBase);
+    --headlineProject: bold 30px/39px var(--fontBase);
+    --headline6: bold 24px/34.5px var(--fontBase);
+    --headline7: bold 16px/17px var(--fontBase);
+    --headline8: bold 15px/21.5px var(--fontBase);
+    --projectTitle: bold 24px/21.5px var(--fontBase);
+    --footer: normal 15px/21.5px var(--fontBase);
+    --button-gradient:  17px/24.5px var(--fontBase);
+
+    /* color palette theme 2 */
+    --blue1: #0F103F;
+    --blue2: #1C1C65;
+    --purple2: #2F2F8A;
+    --pink: #C961DE;
+    --blue3: #2954A3;
 }
 
 body{
-    background: var(--gradient_v2);
+    /* theme 2 background */
+    background: var(--blue1);
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);

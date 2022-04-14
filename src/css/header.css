@@ -1,13 +1,43 @@
 .header{
     position: sticky;
-    top: 0;
+    z-index: 10;
+    top: 20px;
     backdrop-filter: blur(10px);
 }
 
 .header-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    block-size: 80px;
-    
+    block-size: 80px;   
+}
+
+.responsive-button ,.responsive-a{
+    display: none;
+}
+
+@media screen and (max-width: 426px){
+    .responsive-button ,.responsive-a{
+        display: block;
+    }
+
+    .header-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .responsive-a img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .responsive-button{
+        display: flex;
+    }
+
+    .button-gradient{
+        margin: 0;
+    }
+
+
 }

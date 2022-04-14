@@ -22,7 +22,12 @@ export const certificados = [
     {
         title : "Arquitecto Frontend",
         link : "https://gabrielbarcelo-website.s3.amazonaws.com/Portafolio/certificates/diploma-arquitecto-frontend-old.pdf"
-    }
+    },
+    {
+        title : "Inglés Técnico",
+        link : "https://gabrielbarcelo-website.s3.amazonaws.com/Portafolio/certificates/cetec-ingles.pdf"
+    },
+
     
     
 ];

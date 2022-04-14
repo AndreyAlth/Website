@@ -18,3 +18,64 @@
     border: 2px solid var(--purple);
     color: var(--purple);
 }
+
+.button-gradient{
+    font: var(--button-gradient);
+    text-decoration: none;
+    color: var(--white);
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 200px;
+    height: 50px;
+    left: 220px;
+    top: 0px;
+
+    background: linear-gradient(107.21deg, #C961DE 24.43%, #2954A3 68.95%);
+    box-shadow: 0px 10px 20px rgba(8, 12, 33, 0.15);
+    border-radius: 30px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 20px;
+}
+
+.button-gradient-message{
+    font: var(--button-gradient);
+    text-decoration: none;
+    color: var(--white);
+    border: 0;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 160px;
+    height: 40px;
+    left: 0px;
+    top: 454px;
+
+    background: linear-gradient(105.95deg, #C961DE 24.79%, #2954A3 71.87%);
+    box-shadow: 0px 10px 20px rgba(7, 7, 26, 0.15);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 20px 0px;
+}

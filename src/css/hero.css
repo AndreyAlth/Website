@@ -1,11 +1,18 @@
+.hero-container{
+    z-index: 1;
+}
+
 .hero{
     padding-block-start: 16px;
+    position: relative;
 }
 
 .hero-description{
     display: flex;
+    z-index: 1;
     flex-direction: column;
     gap: 16px;
+    color: white;
 }
 
 .hero-social{
@@ -14,6 +21,7 @@
 
 .hero-image{
     text-align: center;
+    z-index: 1;
     
 }
 
@@ -24,13 +32,36 @@
 }
 
 .hero h1{
-    font: var(--headline3);
+    font: var(--headlineCard);
+    color: var(--white);
     margin: 0;
 }
 
 .hero h1 span:nth-of-type(1){
     font: var(--headline5);
     display: block;
+}
+
+.illustrations-container{
+    z-index: 0;
+}
+
+.illustration{
+    position: absolute;
+    z-index: 0;
+    width: 372px;
+    height: 437px;
+    left: -250px;
+    top: -100px;
+}
+
+.illustration-bottom-hero{
+    /* Ilustration bottom */
+    position: absolute;
+    width: 1115.35px;
+    height: 807.76px;
+    left: 390px;
+    top: -90px;
 }
 
 @media screen and (min-width: 768px){
@@ -58,5 +89,71 @@
     .hero-image img{
         inline-size: 400px;
         block-size: 400px;
+    }
+}
+
+
+@media screen and (max-width: 426px){
+    /* .hero-image img{
+        inline-size: 400px;
+        block-size: 400px;
+    } */
+
+    .illustration{
+        width: 8em;
+        height: 9.36em;
+        left: 0;
+        top: 0;
+    }
+
+    .illustration img{
+        width: inherit;
+        height: inherit;
+    }
+
+    .illustration-bottom-hero{
+        /* Ilustration bottom */
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+    .illustration{
+        width: 8em;
+        height: 9.36em;
+        left: 0;
+        top: 0;
+    }
+
+    .illustration img{
+        width: inherit;
+        height: inherit;
+    }
+
+    .illustration-bottom-hero{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1025px){
+
+    .illustration{
+        width: 8em;
+        height: 9.36em;
+        left: 0;
+        top: 0;
+    }
+
+    .illustration img{
+        width: inherit;
+        height: inherit;
+    }
+    
+    .illustration-bottom-hero{
+        display: none;
     }
 }
