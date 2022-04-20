@@ -33,13 +33,13 @@ function ProjectViewer() {
                     </div>
                 </a>
                 
-                <a href="https://github.com/AndreyAlth/Ecommerce-Template">
+                <a href="https://main.d3f4p4s2fet6mt.amplifyapp.com/">
                     <div className="card-left">
                             <div className="project-image">
                                 <img src={mockup} alt="Risk Scan"/>
                             </div>
                         <div className="description-project">
-                            <p className='project-description'>Ecommerce React Template</p>
+                            <p className='project-description'>Ecommerce Template  <br />(No responsive yet) </p>
                         </div>
                     </div>
                 </a>
