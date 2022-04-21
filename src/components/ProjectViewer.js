@@ -33,7 +33,7 @@ function ProjectViewer() {
                     </div>
                 </a>
                 
-                <a href="https://main.d3f4p4s2fet6mt.amplifyapp.com/">
+                <a href="https://www.spilup.shop/">
                     <div className="card-left">
                             <div className="project-image">
                                 <img src={mockup} alt="Risk Scan"/>
